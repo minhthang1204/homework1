@@ -45,7 +45,7 @@ public class homework3 {
 ////                System.out.println(A[i]);
 ////            }
 //            if (A[i] % 2 == 0) {
-//                sum = sum + 1;
+//                sum += A[i];}}
 //          System.out.print(sum);  
     //}
     

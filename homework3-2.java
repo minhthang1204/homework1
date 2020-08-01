@@ -48,5 +48,20 @@ public class homework3 {
 //                sum += A[i];}}
 //          System.out.print(sum);  
     //}
+//EX3
+        int a = scanner.nextInt();
+        int count = 1, dem = 0;
+        for (int i = 1; i <= n; i++) {
+            count = count * i;
+        }
+        while (sum > 0) {
+            if (sum % 10 == 0) {
+                dem++;
+            }
+            count = count / 10;
+        }
+        System.out.println("so chu so 0 la      " + dem);
+
+    }
     
         }
